@@ -51,7 +51,19 @@ with open(file_to_load) as election_data:
         #C3) add vote to candadit's count
         candidate_votes[candidate_name] += 1
 
-
+        #F)save to text file
+        #F1) open text file
+with open(file_to_save,"w") as txt_file:
+    #F2) Print the final vote count to the terminal.
+    election_results = (
+        f"\nElection Results\n"
+        f"-------------------------\n"
+        f"Total Votes: {total_votes:,}\n"
+        f"-------------------------\n")
+    print(election_results, end="")
+    #F3) Save the final vote count to the text file.
+    txt_file.write(election_results)
+    
     #D) Percentage of votes each candidate won
     #D1) iterate through candidate list
     for candidate_name in candidate_votes:
@@ -59,7 +71,11 @@ with open(file_to_load) as election_data:
         votes = candidate_votes[candidate_name]
         #D3) clac the % vote
         vote_percentage = float(votes) / float(total_votes) * 100
-       
+        #E4) get candidate results out name, vote count, and %
+        candidate_results = (f"{candidate_name}: {round(vote_percentage,1)}% ({votes:,})\n")
+        print(candidate_results)
+        txt_file.write(candidate_results)
+
 
         #E1) determine if the votes are greater the the winning count
         if (votes > winning_count) and (vote_percentage > winning_percentage):
@@ -69,8 +85,7 @@ with open(file_to_load) as election_data:
             #E3) Set the winning_candidate equal to the candidate's name.
             winning_candidate = candidate_name
     
-        #E4) print out name, vote count, and %
-        print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+       
     
     #E5) print summery
     winning_candidate_summary = (
@@ -80,6 +95,12 @@ with open(file_to_load) as election_data:
         f"Winning Percentage: {winning_percentage:.1f}%\n"
         f"-------------------------\n")
     print(winning_candidate_summary)
+    txt_file.write(winning_candidate_summary)
+
+
+
+
+
 #A3) print total votes
 #print(total_votes)
 
