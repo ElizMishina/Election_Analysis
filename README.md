@@ -25,11 +25,7 @@
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
     -Diana DeGette: 73.8% (272,892)
     
-here are the results as shown in the election_analysis.txt as well as using terminal through git bash
-    
-    https://github.com/ElizMishina/Election_Analysis/blob/master/Analysis/election_analysis.txt
-    
-    https://github.com/ElizMishina/Election_Analysis/blob/master/Resource/Python_in_git_PyPoll_results.png
+Here are the results as shown in the [election_analysis.txt](https://github.com/ElizMishina/Election_Analysis/blob/master/Analysis/election_analysis.txt) as well as using terminal through [GitBash](https://github.com/ElizMishina/Election_Analysis/blob/master/Resource/Python_in_git_PyPoll_results.png)
 
 
 ## Election Audit Summary
