@@ -33,4 +33,4 @@ here are the results as shown in the election_analysis.txt as well as using term
 
 
 ## Election Audit Summary
-### By removing some of the information that is printed to terminal you can use this program to show population which candadit is in the lead, also with 
+### By removing some of the information that is printed to terminal you can use this program to show population which candadit is in the lead, also with if we get the population of adults from each county we could also claulate the percentage of people voting by county there for seeing if voting needs to be encoureged.
