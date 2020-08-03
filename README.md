@@ -27,9 +27,9 @@
     
 here are the results as shown in the election_analysis.txt as well as using terminal through git bash
     
-    https://github.com/ElizMishina/Election_Analysis/blob/master/Analysis/election_analysis.txt
+    ![text file]https://github.com/ElizMishina/Election_Analysis/blob/master/Analysis/election_analysis.txt
     
-    https://github.com/ElizMishina/Election_Analysis/blob/master/Resource/Python_in_git_PyPoll_results.png
+    ![gitbash.png]https://github.com/ElizMishina/Election_Analysis/blob/master/Resource/Python_in_git_PyPoll_results.png
 
 
 ## Election Audit Summary
