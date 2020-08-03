@@ -5,19 +5,27 @@
 
 ## Election Audit Results 
 ### as we can see the results are
-    - by county the results are
-        - Jefferson: 10.5% (38,855)
-        - Denver: 82.8% (306,055)
-        - Arapahoe: 6.7% (24,801)
-    -with the bigest turnout in Denver
-    
-    -by representatives the results are
-        - Charles Casper Stockham: 23.0% (85,213)
-        - Diana DeGette: 73.8% (272,892)
-        - Raymon Anthony Doane: 3.1% (11,606)
-    -the winner is Diana DeGette
 
-    here are the results as shown in the election_analysis.txt as well as using terminal through git bash
+- How many votes were cast in this congressional election?
+    - 369,711
+
+- Provide a breakdown of the number of votes and the percentage of total votes for each county in the  precinct.
+    - Jefferson: 10.5% (38,855)
+    - Denver: 82.8% (306,055)
+    - Arapahoe: 6.7% (24,801)
+
+- Which county had the largest number of votes?
+    - denver
+
+- Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+    - Charles Casper Stockham: 23.0% (85,213)
+    - Diana DeGette: 73.8% (272,892)
+    - Raymon Anthony Doane: 3.1% (11,606)
+
+- Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+    -Diana DeGette: 73.8% (272,892)
+    
+here are the results as shown in the election_analysis.txt as well as using terminal through git bash
     
     C:\Users\Liz\Desktop\Class_folder\Homework_folder\Election_Analysis\Analysis\election_analysis.txt
     
@@ -25,4 +33,4 @@
 
 
 ## Election Audit Summary
-### In summary Arapahoe county has either the smallest population or the least amount of people intreseted in voting. Also Raymon Anthony Doane is the least popular of all the candidates. On the other had denver county had the largest percentage of voter turnout meaning they are either the largest county of have the most people intrested in voting. also Dian Degetter is the most popular of the candidates by far.
+### By removing some of the information that is printed to terminal you can use this program to show population which candadit is in the lead, also with 
